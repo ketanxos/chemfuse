@@ -1,1 +1,90 @@
+.p-table-m {
+    display: none;
+    visibility: hidden;
+}
 
+/* -------------------- */
+
+main, footer {
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.p-table-d {
+    width: 72%;
+}
+
+.b-prop {
+    width: 25%;
+    background: #ffffff15;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.p-table-d table {
+    width: 100%;
+}
+
+.p-table-d table tr td {
+    width: 5.5%;
+    aspect-ratio: 1;
+    padding: 0.1%;
+}
+
+.p-table-d table tr td div,
+.p-table-d table tr td span {
+    cursor: pointer;
+    aspect-ratio: 1;
+    border-radius: 32px;
+    background: #ffffff25;
+    backdrop-filter: blur(2px);
+    font-size: medium;
+    color: #000;
+    align-content: center;
+    transition: all 0.5s;
+}
+
+.p-table-d table tr td div:hover {
+    background: #00000025;
+    backdrop-filter: blur(4px);
+    font-size: x-large;
+}
+
+.p-table-d table tr td span {
+    display: block;
+    aspect-ratio: 2/1;
+}
+
+.p-table-d table tr td hr {
+    border: none;
+    margin: 1% auto;
+}
+
+.b-prop h2, .b-prop table {
+    padding: 0 8%;
+}
+
+.b-prop button {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+}
+
+.fact {
+    width: 77%;
+}
+
+.info {
+    width: 20%;
+    align-content: end;
+    gap: 10%
+}
+
+.info a {
+    width: 45%;
+}
