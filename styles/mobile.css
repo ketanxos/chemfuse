@@ -1,1 +1,169 @@
+.fact {
+    display: none;
+    visibility: hidden;
+}
 
+/* -------------------- */
+
+@media screen and (orientation: portrait) {
+    .p-table-d {
+        display: none;
+        visibility: hidden;
+    }
+        
+    main {
+        flex-direction: column;
+    }
+    
+    header {
+        font-size: x-large;
+        padding: 12% 0 16%;
+    }
+
+    .p-table-m {
+        width: 80%;
+        margin: 0 auto;
+        padding: 5% 0 10% 0;
+    }
+    
+    .p-table-m input {
+        width: 100%;
+        aspect-ratio: 25/1;
+        border-radius: 32px;
+        border: none;
+        background: #ffffff25;
+        padding: 8%;
+        font-size: large;
+    }
+
+    .p-table-m input:focus {
+        outline: 0;
+    }
+    
+    .b-prop {
+        width: 96%;
+        margin: 0 auto;
+        background: #ffffff15;
+        border-radius: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .b-prop h2, .b-prop table {
+        padding: 4% 8%;
+    }
+    
+    .b-prop h2 {
+        margin: 4% auto 0;
+    }
+    
+    .b-prop button {
+        width: 50%;
+        margin: 4% auto 8%;
+    }
+
+    footer {
+        margin: 2% 0 0;
+    }
+    
+    .info {
+        width: 60%;
+        margin: 2% auto 0;
+        text-align: center;
+    }
+    
+    .info a:nth-child(1) {
+        width: 65%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .p-table-m {
+        display: none;
+        visibility: hidden;
+    }
+    
+    main, footer {
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+    
+    .p-table-d {
+        width: 72%;
+    }
+    
+    .b-prop {
+        width: 25%;
+        background: #ffffff15;
+        border-radius: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .p-table-d table {
+        width: 100%;
+    }
+    
+    .p-table-d table tr td {
+        width: 5.5%;
+        aspect-ratio: 1;
+        padding: 0.1%;
+    }
+    
+    .p-table-d table tr td div,
+    .p-table-d table tr td span {
+        cursor: pointer;
+        aspect-ratio: 1;
+        border-radius: 32px;
+        background: #ffffff25;
+        backdrop-filter: blur(2px);
+        font-size: medium;
+        color: #000;
+        align-content: center;
+        transition: all 0.5s;
+    }
+    
+    .p-table-d table tr td div:hover {
+        background: #00000025;
+        backdrop-filter: blur(4px);
+        font-size: x-large;
+    }
+    
+    .p-table-d table tr td span {
+        display: block;
+        aspect-ratio: 2/1;
+    }
+    
+    .p-table-d table tr td hr {
+        border: none;
+        margin: 1% auto;
+    }
+    
+    .b-prop h2, .b-prop table {
+        padding: 0 8%;
+    }
+    
+    .b-prop button {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .info {
+        width: 100%;
+        display: flex;
+        padding: 0 20%;
+        gap: 10%
+    }
+    
+    .info a {
+        width: 20%;
+        align-content: start;
+    }
+    
+    .info p {
+        width: 40%;
+        align-content: end;
+    }
+}
