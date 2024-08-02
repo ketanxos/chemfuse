@@ -1,6 +1,46 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>ChemFuse: Let's Make Chemistry Easy</title>
+    <meta name="description" content="Under 150 Words" />
+    <meta name="keywords" content="tag1, tag2" />
+    <meta name="classification" content="Education" />
+    <meta name="og:url" content="" />
+    <meta name="og:image" content="" />
+    <meta name="og:title" content="ChemFuse: Let's Make Chemistry Easy" />
+    <meta name="og:description" content="Under 150 Words" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles/mobile.css"
+      media="screen and (max-width: 540px)"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles/desktop.css"
+      media="screen and (min-width: 541px)"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles/print.css"
+      media="print"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script type="module" src="scripts/3dBackground.js"></script>
+  </head>
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
@@ -19,11 +59,204 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap"/>
     </head>
 
-    <body>
-        <header>
-            <h1>CHEMFUSE</h1>
-        </header>
+  <body>
+    <header>
+      <h1>CHEMFUSE</h1>
+    </header>
 
+    <main>
+      <canvas id="container3d"></canvas>
+      <div class="p-table-d">
+        <table id="maintable">
+          <tr class="periodic1">
+            <td><div id="h">H</div></td>
+            <td colspan="16">&nbsp;</td>
+            <td><div id="he">He</div></td>
+          </tr>
+          <tr class="periodic2">
+            <td><div id="li">Li</div></td>
+            <td><div id="be">Be</div></td>
+            <td colspan="10" rowspan="2">&nbsp;</td>
+            <td><div id="b">B</div></td>
+            <td><div id="c">C</div></td>
+            <td><div id="n">N</div></td>
+            <td><div id="o">O</div></td>
+            <td><div id="f">F</div></td>
+            <td><div id="ne">Ne</div></td>
+          </tr>
+          <tr class="periodic3">
+            <td><div id="na">Na</div></td>
+            <td><div id="mg">Mg</div></td>
+            <td><div id="al">Al</div></td>
+            <td><div id="si">Si</div></td>
+            <td><div id="p">P</div></td>
+            <td><div id="s">S</div></td>
+            <td><div id="cl">Cl</div></td>
+            <td><div id="ar">Ar</div></td>
+          </tr>
+          <tr class="periodic4">
+            <td><div id="k">K</div></td>
+            <td><div id="ca">Ca</div></td>
+            <td><div id="sc">Sc</div></td>
+            <td><div id="ti">Ti</div></td>
+            <td><div id="v">V</div></td>
+            <td><div id="cr">Cr</div></td>
+            <td><div id="mn">Mn</div></td>
+            <td><div id="fe">Fe</div></td>
+            <td><div id="co">Co</div></td>
+            <td><div id="ni">Ni</div></td>
+            <td><div id="cu">Cu</div></td>
+            <td><div id="zn">Zn</div></td>
+            <td><div id="ga">Ga</div></td>
+            <td><div id="ge">Ge</div></td>
+            <td><div id="as">As</div></td>
+            <td><div id="se">Se</div></td>
+            <td><div id="br">Br</div></td>
+            <td><div id="kr">Kr</div></td>
+          </tr>
+          <tr class="periodic5">
+            <td><div id="rb">Rb</div></td>
+            <td><div id="sr">Sr</div></td>
+            <td><div id="y">Y</div></td>
+            <td><div id="zr">Zr</div></td>
+            <td><div id="nb">Nb</div></td>
+            <td><div id="mo">Mo</div></td>
+            <td><div id="tc">Tc</div></td>
+            <td><div id="ru">Ru</div></td>
+            <td><div id="rh">Rh</div></td>
+            <td><div id="pd">Pd</div></td>
+            <td><div id="ag">Ag</div></td>
+            <td><div id="cd">Cd</div></td>
+            <td><div id="ind">In</div></td>
+            <td><div id="sn">Sn</div></td>
+            <td><div id="sb">Sb</div></td>
+            <td><div id="te">Te</div></td>
+            <td><div id="i">I</div></td>
+            <td><div id="xe">Xe</div></td>
+          </tr>
+          <tr class="periodic6">
+            <td><div id="cs">Cs</div></td>
+            <td><div id="ba">Ba</div></td>
+            <td><div id="lan">&alpha;&#42;</div></td>
+            <td><div id="hf">Hf</div></td>
+            <td><div id="ta">Ta</div></td>
+            <td><div id="w">W</div></td>
+            <td><div id="re">Re</div></td>
+            <td><div id="os">Os</div></td>
+            <td><div id="ir">Ir</div></td>
+            <td><div id="pt">Pt</div></td>
+            <td><div id="au">Au</div></td>
+            <td><div id="hg">Hg</div></td>
+            <td><div id="tl">Tl</div></td>
+            <td><div id="pb">Pb</div></td>
+            <td><div id="bi">Bi</div></td>
+            <td><div id="po">Po</div></td>
+            <td><div id="at">At</div></td>
+            <td><div id="rn">Rn</div></td>
+          </tr>
+          <tr class="periodic7">
+            <td><div id="fr">Fr</div></td>
+            <td><div id="ra">Ra</div></td>
+            <td><div id="act">&beta;&#42;</div></td>
+            <td><div id="rf">Rf</div></td>
+            <td><div id="db">Db</div></td>
+            <td><div id="sg">Sg</div></td>
+            <td><div id="bh">Bh</div></td>
+            <td><div id="hs">Hs</div></td>
+            <td><div id="mt">Mt</div></td>
+            <td><div id="ds">Ds</div></td>
+            <td><div id="rg">Rg</div></td>
+            <td><div id="cn">Cn</div></td>
+            <td><div id="nh">Nh</div></td>
+            <td><div id="fl">Fl</div></td>
+            <td><div id="mc">Mc</div></td>
+            <td><div id="lv">Lv</div></td>
+            <td><div id="ts">Ts</div></td>
+            <td><div id="og">Og</div></td>
+          </tr>
+          <tr>
+            <td colspan="3" rowspan="1">&nbsp;</td>
+            <td colspan="15" rowspan="1"><hr /></td>
+          </tr>
+          <tr class="periodic6">
+            <td colspan="1" rowspan="2">&nbsp;</td>
+            <td colspan="2" rowspan="1">
+              <span>&alpha;&nbsp;&nbsp;&nbsp;&rarr;</span>
+            </td>
+            <td><div id="la">La</div></td>
+            <td><div id="ce">Ce</div></td>
+            <td><div id="pr">Pr</div></td>
+            <td><div id="nd">Nd</div></td>
+            <td><div id="pm">Pm</div></td>
+            <td><div id="sm">Sm</div></td>
+            <td><div id="eu">Eu</div></td>
+            <td><div id="gd">Gd</div></td>
+            <td><div id="tb">Tb</div></td>
+            <td><div id="dy">Dy</div></td>
+            <td><div id="ho">Ho</div></td>
+            <td><div id="er">Er</div></td>
+            <td><div id="tm">Tm</div></td>
+            <td><div id="yb">Yb</div></td>
+            <td><div id="lu">Lu</div></td>
+          </tr>
+          <tr class="periodic7">
+            <td colspan="2" rowspan="1">
+              <span>&beta;&nbsp;&nbsp;&nbsp;&rarr; </span>
+            </td>
+            <td><div id="ac">Ac</div></td>
+            <td><div id="th">Th</div></td>
+            <td><div id="pa">Pa</div></td>
+            <td><div id="u">U</div></td>
+            <td><div id="np">Np</div></td>
+            <td><div id="pu">Pu</div></td>
+            <td><div id="am">Am</div></td>
+            <td><div id="cm">Cm</div></td>
+            <td><div id="bk">Bk</div></td>
+            <td><div id="cf">Cf</div></td>
+            <td><div id="es">Es</div></td>
+            <td><div id="fm">Fm</div></td>
+            <td><div id="md">Md</div></td>
+            <td><div id="no">No</div></td>
+            <td><div id="lr">Lr</div></td>
+          </tr>
+        </table>
+      </div>
+      <div class="p-table-m">
+        <label><input placeholder="Search" /> </label>
+      </div>
+      <div class="b-prop">
+        <h2 id="title-element">UNUNENNIUM</h2>
+        <table>
+          <tr>
+            <td>ATOMIC NO.</td>
+            <td id="atomicNo">119</td>
+          </tr>
+          <tr>
+            <td>POSITION</td>
+            <td id="position">G1 P8</td>
+          </tr>
+          <tr>
+            <td>STATE</td>
+            <td id="state">SOLID</td>
+          </tr>
+          <tr>
+            <td>BOILING PT.</td>
+            <td id="boilingPt">600<sup>&deg;</sup> to 700<sup>&deg;</sup></td>
+          </tr>
+          <tr>
+            <td>MELTING PT.</td>
+            <td id="meltingPt">0<sup>&deg;</sup> to 30<sup>&deg;</sup></td>
+          </tr>
+          <tr>
+            <td>ATOMIC RADIUS</td>
+            <td id="atomicRad">&#8275; 260pm</td>
+          </tr>
+        </table>
+        <button>
+          <a id="myLink" href="">More &#8250;</a>
+        </button>
+      </div>
+    </main>
         <main>
             <div class="p-table-d">
                 <table>
@@ -197,22 +430,28 @@
             </div>
         </main>
 
-        <footer>
-            <div class="fact">
-                <h2>Did you know...?</h2>
-                <p>&#11177; Same element can have different no. of protons, we call them isotopes &#129488;</p>
-                <p>&#11177; "Noble gases do not react", Krypton and Xenon laughing at this theory &#128518;</p>
-                <p>&#11177; 1g of Uranium can generate 22,805 kW/hrs of electricity &#128268;</p>
-                <p>&#11177; You can stretch 2g of gold as long as 3km in length &#128559;</p>
-            </div>
-            <div class="info">
-                <a href="info/developers.html">developers</a>
-                <a href="info/about.html">about</a>
-                <p>made with &#129505; in India</p>
-            </div>
-        </footer>
+    <footer>
+      <div class="fact">
+        <h2>Did you know...?</h2>
+        <p>
+          &#11177; Same element can have different no. of protons, we call them
+          isotopes
+        </p>
+        <p>
+          &#11177; "Noble gases do not react", Krypton and Xenon laughing at
+          this theory
+        </p>
+        <p>&#11177; 1g of Uranium can generate 22,805 kW/hrs of electricity</p>
+        <p>&#11177; You can stretch 2g of gold as long as 3km in length</p>
+      </div>
+      <div class="info">
+        <a href="info/developers.html">developers</a>
+        <a href="info/about.html">about</a>
+        <p>made with &#129505; in India</p>
+      </div>
+    </footer>
 
-        <script type="text/javascript" src="scripts/main.js"></script>
-        <script type="text/javascript" src="scripts/properties.js"></script>
-    </body>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <script type="text/javascript" src="scripts/properties.js"></script>
+  </body>
 </html>
