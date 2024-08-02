@@ -18,7 +18,7 @@ const properties = {
     protonAffinity: 1676,
     autoIgnitionTemperature: 500,
     airSensitivity: "Non-reactive",
-    link: "https://en.wikipedia.org/wiki/Hydrogen",
+    link: "element/hydrogen.html",
   },
   he: {
     atomicNumber: 2,
@@ -39,6 +39,7 @@ const properties = {
     protonAffinity: 177.8,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Non-reactive",
+    link: "element/helium.html",
   },
   li: {
     atomicNumber: 3,
@@ -59,6 +60,7 @@ const properties = {
     protonAffinity: 920.9,
     autoIgnitionTemperature: 200,
     airSensitivity: "Reacts with air",
+    link: "element/lithium.html",
   },
   be: {
     atomicNumber: 4,
@@ -79,6 +81,7 @@ const properties = {
     protonAffinity: 757.1,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Forms oxide layer",
+    link: "element/beryllium.html",
   },
   b: {
     atomicNumber: 5,
@@ -99,6 +102,7 @@ const properties = {
     protonAffinity: 587.1,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Forms oxide layer",
+    link: "element/boron.html",
   },
   c: {
     atomicNumber: 6,
@@ -119,6 +123,7 @@ const properties = {
     protonAffinity: 493.6,
     autoIgnitionTemperature: 700,
     airSensitivity: "Forms CO and CO2",
+    link: "element/carbon.html",
   },
   n: {
     atomicNumber: 7,
@@ -139,6 +144,7 @@ const properties = {
     protonAffinity: 428.6,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Non-reactive",
+    link: "element/nitrogen.html",
   },
   o: {
     atomicNumber: 8,
@@ -159,6 +165,7 @@ const properties = {
     protonAffinity: 420.8,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Forms oxides",
+    link: "element/oxygen.html",
   },
   f: {
     atomicNumber: 9,
@@ -179,6 +186,7 @@ const properties = {
     protonAffinity: 343.4,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Forms fluorides",
+    link: "element/fluorine.html",
   },
   ne: {
     atomicNumber: 10,
@@ -199,6 +207,7 @@ const properties = {
     protonAffinity: 170.1,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Non-reactive",
+    link: "element/neon.html",
   },
   na: {
     atomicNumber: 11,
@@ -219,6 +228,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Highly reactive",
+    link: "element/sodium.html",
   },
   mg: {
     atomicNumber: 12,
@@ -239,6 +249,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/magnesium.html",
   },
   al: {
     atomicNumber: 13,
@@ -259,6 +270,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/aluminum.html",
   },
   si: {
     atomicNumber: 14,
@@ -279,6 +291,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/silicon.html",
   },
   p: {
     atomicNumber: 15,
@@ -299,6 +312,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "White phosphorus: 34°C",
     airSensitivity: "Highly reactive",
+    link: "element/phosphorus.html",
   },
   s: {
     atomicNumber: 16,
@@ -319,6 +333,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/sulfur.html",
   },
   cl: {
     atomicNumber: 17,
@@ -339,6 +354,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/chlorine.html",
   },
   ar: {
     atomicNumber: 18,
@@ -359,6 +375,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/argon.html",
   },
   k: {
     atomicNumber: 19,
@@ -379,6 +396,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Highly reactive",
+    link: "element/potassium.html",
   },
   ca: {
     atomicNumber: 20,
@@ -399,6 +417,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/calcium.html",
   },
   sc: {
     atomicNumber: 21,
@@ -419,6 +438,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/scandium.html",
   },
   ti: {
     atomicNumber: 22,
@@ -439,6 +459,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/titanium.html",
   },
   v: {
     atomicNumber: 23,
@@ -459,6 +480,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/vanadium.html",
   },
   cr: {
     atomicNumber: 24,
@@ -479,6 +501,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/chromium.html",
   },
   mn: {
     atomicNumber: 25,
@@ -499,6 +522,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/manganese.html",
   },
   fe: {
     atomicNumber: 26,
@@ -519,6 +543,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable, but can rust",
+    link: "element/iron.html",
   },
   co: {
     atomicNumber: 27,
@@ -539,6 +564,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable, but can oxidize",
+    link: "element/cobalt.html",
   },
   ni: {
     atomicNumber: 28,
@@ -559,6 +585,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable, but can oxidize",
+    link: "element/nickel.html",
   },
   cu: {
     atomicNumber: 29,
@@ -579,6 +606,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable, but can tarnish",
+    link: "element/copper.html",
   },
   zn: {
     atomicNumber: 30,
@@ -599,6 +627,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable, but can form a coating of zinc oxide",
+    link: "element/zinc.html",
   },
   ga: {
     atomicNumber: 31,
@@ -619,6 +648,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/gallium.html",
   },
   ge: {
     atomicNumber: 32,
@@ -639,6 +669,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/germanium.html",
   },
   as: {
     atomicNumber: 33,
@@ -659,6 +690,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/arsenic.html",
   },
   se: {
     atomicNumber: 34,
@@ -679,6 +711,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/selenium.html",
   },
   br: {
     atomicNumber: 35,
@@ -699,6 +732,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/bromine.html",
   },
   kr: {
     atomicNumber: 36,
@@ -719,6 +753,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/krypton.html",
   },
   rb: {
     atomicNumber: 37,
@@ -739,6 +774,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Highly reactive",
+    link: "element/rubidium.html",
   },
   sr: {
     atomicNumber: 38,
@@ -759,6 +795,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/strontium.html",
   },
   y: {
     atomicNumber: 39,
@@ -779,6 +816,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/yttrium.html",
   },
   zr: {
     atomicNumber: 40,
@@ -799,6 +837,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/zirconium.html",
   },
   nb: {
     atomicNumber: 41,
@@ -819,6 +858,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/niobium.html",
   },
   mo: {
     atomicNumber: 42,
@@ -839,6 +879,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/molybdenum.html",
   },
   tc: {
     atomicNumber: 43,
@@ -859,6 +900,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/technetium.html",
   },
   ru: {
     atomicNumber: 44,
@@ -879,6 +921,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/ruthenium.html",
   },
   rh: {
     atomicNumber: 45,
@@ -899,6 +942,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/rhodium.html",
   },
   pd: {
     atomicNumber: 46,
@@ -919,6 +963,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/palladium.html",
   },
   ag: {
     atomicNumber: 47,
@@ -939,6 +984,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/silver.html",
   },
   cd: {
     atomicNumber: 48,
@@ -959,6 +1005,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/cadmium.html",
   },
   ind: {
     atomicNumber: 49,
@@ -979,6 +1026,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/indium.html",
   },
   sn: {
     atomicNumber: 50,
@@ -999,6 +1047,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/tin.html",
   },
   sb: {
     atomicNumber: 51,
@@ -1019,6 +1068,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/antimony.html",
   },
   te: {
     atomicNumber: 52,
@@ -1039,6 +1089,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/tellurium.html",
   },
   i: {
     atomicNumber: 53,
@@ -1059,6 +1110,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/iodine.html",
   },
   xe: {
     atomicNumber: 54,
@@ -1079,6 +1131,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/xenon.html",
   },
   cs: {
     atomicNumber: 55,
@@ -1099,6 +1152,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Highly reactive",
+    link: "element/cesium.html",
   },
   ba: {
     atomicNumber: 56,
@@ -1119,6 +1173,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Highly reactive",
+    link: "element/barium.html",
   },
   la: {
     atomicNumber: 57,
@@ -1139,6 +1194,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/lanthanum.html",
   },
   ce: {
     atomicNumber: 58,
@@ -1159,6 +1215,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/cerium.html",
   },
   pr: {
     atomicNumber: 59,
@@ -1179,6 +1236,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/praseodymium.html",
   },
   nd: {
     atomicNumber: 60,
@@ -1199,6 +1257,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/neodymium.html",
   },
   pm: {
     atomicNumber: 61,
@@ -1219,6 +1278,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/promethium.html",
   },
   sm: {
     atomicNumber: 62,
@@ -1239,6 +1299,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/samarium.html",
   },
   eu: {
     atomicNumber: 63,
@@ -1259,6 +1320,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/europium.html",
   },
   gd: {
     atomicNumber: 64,
@@ -1279,6 +1341,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/gadolinium.html",
   },
   tb: {
     atomicNumber: 65,
@@ -1299,6 +1362,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/terbium.html",
   },
   dy: {
     atomicNumber: 66,
@@ -1319,6 +1383,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/dysprosium.html",
   },
   ho: {
     atomicNumber: 67,
@@ -1339,6 +1404,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/holmium.html",
   },
   er: {
     atomicNumber: 68,
@@ -1359,6 +1425,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/erbium.html",
   },
   tm: {
     atomicNumber: 69,
@@ -1379,6 +1446,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/thulium.html",
   },
   yb: {
     atomicNumber: 70,
@@ -1399,6 +1467,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/ytterbium.html",
   },
   lu: {
     atomicNumber: 71,
@@ -1419,6 +1488,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/lutetium.html",
   },
   hf: {
     atomicNumber: 72,
@@ -1439,6 +1509,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/hafnium.html",
   },
   ta: {
     atomicNumber: 73,
@@ -1459,6 +1530,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/tantalum.html",
   },
   w: {
     atomicNumber: 74,
@@ -1479,6 +1551,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/tungsten.html",
   },
   re: {
     atomicNumber: 75,
@@ -1499,6 +1572,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/rhenium.html",
   },
   os: {
     atomicNumber: 76,
@@ -1519,6 +1593,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/osmium.html",
   },
   ir: {
     atomicNumber: 77,
@@ -1539,6 +1614,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/iridium.html",
   },
   pt: {
     atomicNumber: 78,
@@ -1559,6 +1635,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/platinum.html",
   },
   au: {
     atomicNumber: 79,
@@ -1579,6 +1656,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/gold.html",
   },
   hg: {
     atomicNumber: 80,
@@ -1599,6 +1677,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/mercury.html",
   },
   tl: {
     atomicNumber: 81,
@@ -1619,6 +1698,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
+    link: "element/thallium.html",
   },
   pb: {
     atomicNumber: 82,
@@ -1639,6 +1719,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/lead.html",
   },
   bi: {
     atomicNumber: 83,
@@ -1659,6 +1740,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Stable",
+    link: "element/bismuth.html",
   },
   po: {
     atomicNumber: 84,
@@ -1679,6 +1761,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/polonium.html",
   },
   at: {
     atomicNumber: 85,
@@ -1699,6 +1782,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/astatine.html",
   },
   rn: {
     atomicNumber: 86,
@@ -1719,6 +1803,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/radon.html",
   },
   fr: {
     atomicNumber: 87,
@@ -1739,6 +1824,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/francium.html",
   },
   ra: {
     atomicNumber: 88,
@@ -1759,6 +1845,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/radium.html",
   },
   ac: {
     atomicNumber: 89,
@@ -1779,6 +1866,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/actinium.html",
   },
   th: {
     atomicNumber: 90,
@@ -1799,6 +1887,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/thorium.html",
   },
   pa: {
     atomicNumber: 91,
@@ -1819,6 +1908,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/protactinium.html",
   },
   u: {
     atomicNumber: 92,
@@ -1839,6 +1929,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/uranium.html",
   },
   np: {
     atomicNumber: 93,
@@ -1859,6 +1950,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/neptunium.html",
   },
   pu: {
     atomicNumber: 94,
@@ -1879,6 +1971,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/plutonium.html",
   },
   am: {
     atomicNumber: 95,
@@ -1899,6 +1992,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/americium.html",
   },
   cm: {
     atomicNumber: 96,
@@ -1919,6 +2013,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/curium.html",
   },
   bk: {
     atomicNumber: 97,
@@ -1939,6 +2034,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/berkelium.html",
   },
   cf: {
     atomicNumber: 98,
@@ -1959,6 +2055,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/californium.html",
   },
   es: {
     atomicNumber: 99,
@@ -1979,6 +2076,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/einsteinium.html",
   },
   fm: {
     atomicNumber: 100,
@@ -1999,6 +2097,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/fermium.html",
   },
   md: {
     atomicNumber: 101,
@@ -2019,6 +2118,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/mendelevium.html",
   },
   no: {
     atomicNumber: 102,
@@ -2039,6 +2139,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/nobelium.html",
   },
   lr: {
     atomicNumber: 103,
@@ -2059,6 +2160,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/lawrencium.html",
   },
   rf: {
     atomicNumber: 104,
@@ -2079,6 +2181,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/rutherfordium.html",
   },
   db: {
     atomicNumber: 105,
@@ -2099,6 +2202,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/dubnium.html",
   },
   sg: {
     atomicNumber: 106,
@@ -2119,6 +2223,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/seaborgium.html",
   },
   bh: {
     atomicNumber: 107,
@@ -2139,6 +2244,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/bohrium.html",
   },
   hs: {
     atomicNumber: 108,
@@ -2159,6 +2265,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/hassium.html",
   },
   mt: {
     atomicNumber: 109,
@@ -2179,6 +2286,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/meitnerium.html",
   },
   ds: {
     atomicNumber: 110,
@@ -2199,6 +2307,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/darmstadtium.html",
   },
   rg: {
     atomicNumber: 111,
@@ -2219,6 +2328,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/roentgenium.html",
   },
   cn: {
     atomicNumber: 112,
@@ -2239,6 +2349,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/copernicium.html",
   },
   nh: {
     atomicNumber: 113,
@@ -2259,6 +2370,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/nihonium.html",
   },
   fl: {
     atomicNumber: 114,
@@ -2279,6 +2391,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/flerovium.html",
   },
   mc: {
     atomicNumber: 115,
@@ -2299,6 +2412,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/moscovium.html",
   },
   lv: {
     atomicNumber: 116,
@@ -2319,6 +2433,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/livermorium.html",
   },
   ts: {
     atomicNumber: 117,
@@ -2339,6 +2454,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/tennessine.html",
   },
   og: {
     atomicNumber: 118,
@@ -2359,6 +2475,8 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Radioactive",
+    link: "element/oganesson.html",
   },
 };
+
 console.log("props done");
