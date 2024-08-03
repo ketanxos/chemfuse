@@ -270,7 +270,7 @@ const properties = {
     protonAffinity: 0,
     autoIgnitionTemperature: "Non-flammable",
     airSensitivity: "Reactive",
-    link: "element/aluminum.html",
+    link: "element/aluminium.html",
   },
   si: {
     atomicNumber: 14,
