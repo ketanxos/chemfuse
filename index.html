@@ -16,7 +16,6 @@
     <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="screen and (max-width: 540px)"/>
     <link rel="stylesheet" type="text/css" href="styles/desktop.css" media="screen and (min-width: 541px)"/>
     <link rel="stylesheet" type="text/css" href="styles/print.css" media="print"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap"/>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
     <script type="module" src="scripts/3dBackground.js"></script>
   </head>
@@ -43,15 +42,126 @@
         </table>
       </div>
       <div class="p-table-m">
-        <label><input list="elements" placeholder="Find your element"/></label>
+        <label><input list="elements" placeholder="Find your element" onchange="handleSelection(event)"/></label>
         <datalist id="elements">
-          <option value="Hydrogen"><option value="Helium">
-          <option value="Lithium"><option value="Beryllium"><option value="Boron"><option value="Carbon"><option value="Nitrogen"><option value="Oxygen"><option value="Fluorine"><option value="Neon">
-          <option value="Sodium"><option value="Magnesium"><option value="Aluminum"><option value="Silicon"><option value="Phosphorus"><option value="Sulfur"><option value="Chlorine"><option value="Argon">
-          <option value="Potassium"><option value="Calcium"><option value="Scandium"><option value="Titanium"><option value="Vanadium"><option value="Chromium"><option value="Manganese"><option value="Iron"><option value="Cobalt"><option value="Nickel"><option value="Copper"><option value="Zinc"><option value="Gallium"><option value="Germanium"><option value="Arsenic"><option value="Selenium"><option value="Bromine"><option value="Krypton">
-          <option value="Rubidium"><option value="Strontium"><option value="Ytterbium"><option value="Zirconium"><option value="Niobium"><option value="Molybdenum"><option value="Technetium"><option value="Ruthenium"><option value="Rhodium"><option value="Palladium"><option value="Silver"><option value="Cadmium"><option value="Indium"><option value="Tin"><option value="Antimony"><option value="Tellurium"><option value="Iodine"><option value="Xenon">
-          <option value="Cesium"><option value="Barium"><option value="Lanthanum"><option value="Cerium"><option value="Praseodymium"><option value="Neodymium"><option value="Promethium"><option value="Samarium"><option value="Europium"><option value="Gadolinium"><option value="Terbium"><option value="Dysprosium"><option value="Holmium"><option value="Erbium"><option value="Thulium"><option value="Ytterbium"><option value="Lutetium"><option value="Hafnium"><option value="Tantalum"><option value="Tungsten"><option value="Rhenium"><option value="Osmium"><option value="Iridium"><option value="Platinum"><option value="Gold"><option value="Mercury"><option value="Thallium"><option value="Lead"><option value="Bismuth"><option value="Polonium"><option value="Astatine"><option value="Radon">
-          <option value="Francium"><option value="Radium"><option value="Actinium"><option value="Thorium"><option value="Protactinium"><option value="Uranium"><option value="Neptunium"><option value="Plutonium"><option value="Americium"><option value="Curium"><option value="Berkelium"><option value="Californium"><option value="Einsteinium"><option value="Fermium"><option value="Mendelevium"><option value="Nobelium"><option value="Lawrencium"><option value="Rutherfordium"><option value="Dubnium"><option value="Seaborgium"><option value="Bohrium"><option value="Hassium"><option value="Meitnerium"><option value="Darmstadtium"><option value="Roentgenium"><option value="Copernicium"><option value="Nihonium"><option value="Flerovium"><option value="Moscovium"><option value="Livermorium"><option value="Tennessine"><option value="Oganesson">
+          <option value="Hydrogen" data-id="h"></option>
+          <option value="Helium" data-id="he"></option>
+          <option value="Lithium" data-id="li"></option>
+          <option value="Beryllium" data-id="be"></option>
+          <option value="Boron" data-id="b"></option>
+          <option value="Carbon" data-id="c"></option>
+          <option value="Nitrogen" data-id="n"></option>
+          <option value="Oxygen" data-id="o"></option>
+          <option value="Fluorine" data-id="f"></option>
+          <option value="Neon" data-id="ne"></option>
+          <option value="Sodium" data-id="na"></option>
+          <option value="Magnesium" data-id="mg"></option>
+          <option value="Aluminum" data-id="al"></option>
+          <option value="Silicon" data-id="si"></option>
+          <option value="Phosphorus" data-id="p"></option>
+          <option value="Sulfur" data-id="s"></option>
+          <option value="Chlorine" data-id="cl"></option>
+          <option value="Argon" data-id="ar"></option>
+          <option value="Potassium" data-id="k"></option>
+          <option value="Calcium" data-id="ca"></option>
+          <option value="Scandium" data-id="sc"></option>
+          <option value="Titanium" data-id="ti"></option>
+          <option value="Vanadium" data-id="v"></option>
+          <option value="Chromium" data-id="cr"></option>
+          <option value="Manganese" data-id="mn"></option>
+          <option value="Iron" data-id="fe"></option>
+          <option value="Cobalt" data-id="co"></option>
+          <option value="Nickel" data-id="ni"></option>
+          <option value="Copper" data-id="cu"></option>
+          <option value="Zinc" data-id="zn"></option>
+          <option value="Gallium" data-id="ga"></option>
+          <option value="Germanium" data-id="ge"></option>
+          <option value="Arsenic" data-id="as"></option>
+          <option value="Selenium" data-id="se"></option>
+          <option value="Bromine" data-id="br"></option>
+          <option value="Krypton" data-id="kr"></option>
+          <option value="Rubidium" data-id="rb"></option>
+          <option value="Strontium" data-id="sr"></option>
+          <option value="Yttrium" data-id="y"></option>
+          <option value="Zirconium" data-id="zr"></option>
+          <option value="Niobium" data-id="nb"></option>
+          <option value="Molybdenum" data-id="mo"></option>
+          <option value="Technetium" data-id="tc"></option>
+          <option value="Ruthenium" data-id="ru"></option>
+          <option value="Rhodium" data-id="rh"></option>
+          <option value="Palladium" data-id="pd"></option>
+          <option value="Silver" data-id="ag"></option>
+          <option value="Cadmium" data-id="cd"></option>
+          <option value="Indium" data-id="in"></option>
+          <option value="Tin" data-id="sn"></option>
+          <option value="Antimony" data-id="sb"></option>
+          <option value="Tellurium" data-id="te"></option>
+          <option value="Iodine" data-id="i"></option>
+          <option value="Xenon" data-id="xe"></option>
+          <option value="Cesium" data-id="cs"></option>
+          <option value="Barium" data-id="ba"></option>
+          <option value="Lanthanum" data-id="la"></option>
+          <option value="Cerium" data-id="ce"></option>
+          <option value="Praseodymium" data-id="pr"></option>
+          <option value="Neodymium" data-id="nd"></option>
+          <option value="Promethium" data-id="pm"></option>
+          <option value="Samarium" data-id="sm"></option>
+          <option value="Europium" data-id="eu"></option>
+          <option value="Gadolinium" data-id="gd"></option>
+          <option value="Terbium" data-id="tb"></option>
+          <option value="Dysprosium" data-id="dy"></option>
+          <option value="Holmium" data-id="ho"></option>
+          <option value="Erbium" data-id="er"></option>
+          <option value="Thulium" data-id="tm"></option>
+          <option value="Ytterbium" data-id="yb"></option>
+          <option value="Lutetium" data-id="lu"></option>
+          <option value="Hafnium" data-id="hf"></option>
+          <option value="Tantalum" data-id="ta"></option>
+          <option value="Tungsten" data-id="w"></option>
+          <option value="Rhenium" data-id="re"></option>
+          <option value="Osmium" data-id="os"></option>
+          <option value="Iridium" data-id="ir"></option>
+          <option value="Platinum" data-id="pt"></option>
+          <option value="Gold" data-id="au"></option>
+          <option value="Mercury" data-id="hg"></option>
+          <option value="Thallium" data-id="tl"></option>
+          <option value="Lead" data-id="pb"></option>
+          <option value="Bismuth" data-id="bi"></option>
+          <option value="Polonium" data-id="po"></option>
+          <option value="Astatine" data-id="at"></option>
+          <option value="Radon" data-id="rn"></option>
+          <option value="Francium" data-id="fr"></option>
+          <option value="Radium" data-id="ra"></option>
+          <option value="Actinium" data-id="ac"></option>
+          <option value="Thorium" data-id="th"></option>
+          <option value="Protactinium" data-id="pa"></option>
+          <option value="Uranium" data-id="u"></option>
+          <option value="Neptunium" data-id="np"></option>
+          <option value="Plutonium" data-id="pu"></option>
+          <option value="Americium" data-id="am"></option>
+          <option value="Curium" data-id="cm"></option>
+          <option value="Berkelium" data-id="bk"></option>
+          <option value="Californium" data-id="cf"></option>
+          <option value="Einsteinium" data-id="es"></option>
+          <option value="Fermium" data-id="fm"></option>
+          <option value="Mendelevium" data-id="md"></option>
+          <option value="Nobelium" data-id="no"></option>
+          <option value="Lawrencium" data-id="lr"></option>
+          <option value="Rutherfordium" data-id="rf"></option>
+          <option value="Dubnium" data-id="db"></option>
+          <option value="Seaborgium" data-id="sg"></option>
+          <option value="Bohrium" data-id="bh"></option>
+          <option value="Hassium" data-id="hs"></option>
+          <option value="Meitnerium" data-id="mt"></option>
+          <option value="Darmstadtium" data-id="ds"></option>
+          <option value="Roentgenium" data-id="rg"></option>
+          <option value="Copernicium" data-id="cn"></option>
+          <option value="Nihonium" data-id="nh"></option>
+          <option value="Flerovium" data-id="fl"></option>
+          <option value="Moscovium" data-id="mc"></option>
+          <option value="Livermorium" data-id="lv"></option>
+          <option value="Tennessine" data-id="ts"></option>
+          <option value="Oganesson" data-id="og"></option>
         </datalist>
       </div>
       <div class="b-prop">

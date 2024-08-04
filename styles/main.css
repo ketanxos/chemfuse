@@ -1,8 +1,13 @@
+@font-face {
+  font-family: syne;
+  src: url(../font/syne.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "syne", sans-serif;
+  font-family: syne;
   text-decoration: none;
   color: #fff;
 }

@@ -53,3 +53,16 @@ function displayElementProperties(elementId) {
 function nxtpage() {
   atag.href = "https://www.w3schools.com/js/js_events.asp";
 }
+
+function handleSelection(event) {
+  const selectedValue = event.target.value;
+  const options = document.querySelectorAll("#elements option");
+  let elementId = "";
+
+  options.forEach((option) => {
+    if (option.value === selectedValue) {
+      elementId = option.getAttribute("data-id");
+    }
+  });
+  displayElementProperties(elementId);
+}
