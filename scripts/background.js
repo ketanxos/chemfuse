@@ -1,9 +1,6 @@
 import * as THREE from "https://cdn.skypack.dev/three@0.129.0/build/three.module.js";
-import { OrbitControls } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/OrbitControls.js";
-import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
 
-// Scene
-const canvas = document.getElementById("container3d");
+const canvas = document.getElementById("background");
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
   75,
@@ -14,7 +11,6 @@ const camera = new THREE.PerspectiveCamera(
 const renderer = new THREE.WebGLRenderer({ canvas });
 renderer.setSize(window.innerWidth, window.innerHeight);
 
-// Generate random points in a sphere
 const stars = new Float32Array(5000);
 function randomInSphere(array, radius) {
   for (let i = 0; i < array.length; i += 3) {
@@ -57,7 +53,6 @@ function animate() {
 
 animate();
 
-// Handle window resize
 window.addEventListener("resize", () => {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();

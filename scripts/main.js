@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const elements = document.querySelectorAll("#maintable td div");
+  const elements = document.querySelectorAll("#elements-table td div");
 
   elements.forEach((element) => {
     element.addEventListener("click", function () {
@@ -16,17 +16,17 @@ function displayElementProperties(elementId) {
   if (elementData) {
     console.log(`Displaying data for: ${elementId}`);
 
-    const titleElement = document.getElementById("title-element");
+    const fullNameElement = document.getElementById("fullName");
     const atomicNoElement = document.getElementById("atomicNo");
     const positionElement = document.getElementById("position");
     const stateElement = document.getElementById("state");
     const boilingPtElement = document.getElementById("boilingPt");
     const meltingPtElement = document.getElementById("meltingPt");
     const atomicRadElement = document.getElementById("atomicRad");
-    const link = document.getElementById("myLink");
+    const urlElement = document.getElementById("link");
 
     if (
-      titleElement &&
+      fullNameElement &&
       atomicNoElement &&
       positionElement &&
       stateElement &&
@@ -34,14 +34,14 @@ function displayElementProperties(elementId) {
       meltingPtElement &&
       atomicRadElement
     ) {
-      titleElement.textContent = elementData.fullName;
+      fullNameElement.textContent = elementData.fullName;
       atomicNoElement.textContent = elementData.atomicNumber;
       positionElement.textContent = elementData.position;
       stateElement.textContent = elementData.state;
       boilingPtElement.innerHTML = elementData.boilingPoint;
       meltingPtElement.innerHTML = elementData.meltingPoint;
       atomicRadElement.innerHTML = elementData.atomicRadius;
-      link.href = elementData.link;
+      urlElement.href = elementData.url;
     } else {
       console.error("One or more elements not found in the DOM");
     }
@@ -50,13 +50,9 @@ function displayElementProperties(elementId) {
   }
 }
 
-function nxtpage() {
-  atag.href = "https://www.w3schools.com/js/js_events.asp";
-}
-
 function handleSelection(event) {
   const selectedValue = event.target.value;
-  const options = document.querySelectorAll("#elements option");
+  const options = document.querySelectorAll("#elements-list option");
   let elementId = "";
 
   options.forEach((option) => {
