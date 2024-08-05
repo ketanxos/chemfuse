@@ -1,1 +1,131 @@
 
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <title>Developers - ChemFuse</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Recoleta:wght@400&display=swap"/>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #0a0b0c;
+        color: #fff;
+        font-family: "Lucida Console", monospace;
+      }
+
+      .about-container {
+        width: 80%;
+        margin: 5% auto;
+        border-radius: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        background: #ffffff21;
+      }
+
+      .about-container h1 {
+        width: 100%;
+        text-align: center;
+        margin: 3% auto 1.5%;
+        font-size: 2.5em;
+      }
+
+      .about-container p {
+        width: 90%;
+        text-align: center;
+        margin: 1.5% auto 1.5%;
+        line-height: 2;
+        color:#ffffffa0;
+      }
+
+      .team-cards {
+        width: 100%;
+        padding: 1.5% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+      }
+
+      .team-card {
+        background-color: #ffffff;
+        border-radius: 32px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+        overflow: hidden;
+        width: 30%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .team-card img {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        object-position: top;
+      }
+      .team-card .card-content {
+        padding: 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card-content h2 {
+        font-size: 1.5em;
+        color: #333;
+      }
+      .card-content span {
+        font-size: 1.1em;
+        color: #888;
+        margin: 5% auto;
+      }
+      .card-content a {
+        font-size: 1.25em;
+        color: #0077b5;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="about-container">
+      <h1>Meet The Team</h1>
+      <p>We are the passionate team behind <b>ChemFuse</b>, dedicated to providing high-quality educational content about the periodic table and its elements.</p>
+      <div class="team-cards">
+        <div class="team-card">
+          <img src="../images/ritesh.jpg" alt="Member 1" />
+          <div class="card-content">
+            <h2>Ritesh Divedi</h2>
+            <span>Frontend Developer</span>
+            <a href="https://www.linkedin.com/in/ritesh-kr-divedi-8b8b81214" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <img src="../images/balmukund.jpg" alt="Member 2"/>
+          <div class="card-content">
+            <h2>Balmukund Mishra</h2>
+            <span>Frontend Developer</span>
+            <a href="https://www.linkedin.com/in/balmukund-mishra-2148202a1/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <img src="../images/ketan.png" alt="Member3"/>
+          <div class="card-content">
+            <h2>Ketan Kumar</h2>
+            <span>Frontend Developer</span>
+            <a href="https://www.linkedin.com/in/ketanxos/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
