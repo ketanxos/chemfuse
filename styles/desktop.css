@@ -1,94 +1,119 @@
-.p-table-m {
+#p-table-m {
   display: none;
   visibility: hidden;
 }
 
-/* -------------------- */
+/* ---------------- */
 
-main,
-footer {
-  flex-wrap: wrap;
-  gap: 3%;
+header, main, footer {
+  width: 100vw;
+  padding: 0.5% 2%;
 }
 
-.p-table-d {
-  width: 72%;
+header, main {
+  text-align: center;
 }
 
-.b-prop {
-  width: 25%;
-  background: #ffffff15;
-  border-radius: 32px;
+main, footer {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2%;
 }
 
-.p-table-d table {
+header {
+  font-size: 2.5rem;
+}
+
+#p-table-d {
+  width: 77%;
+}
+
+#p-table-d table {
   width: 100%;
 }
 
-.p-table-d table tr td {
+#p-table-d table tr td {
   width: 5.5%;
   aspect-ratio: 1;
   padding: 0.1%;
 }
 
-.p-table-d table tr td div,
-.p-table-d table tr td span {
-  cursor: pointer;
+#p-table-d table tr td div,
+#p-table-d table tr td span {
   aspect-ratio: 1;
-  border-radius: 20px;
-  background: #ffffff25;
-  backdrop-filter: blur(2px);
-  font-size: medium;
+  border-radius: 40%;
+  background: #ffffff1a;
+  backdrop-filter: blur(1px);
+  border: 1px solid #ffffff1a;
+  cursor: pointer;
+  font-size: 1.25rem;
   align-content: center;
   transition: all 0.5s;
 }
-.p-table-d table tr td div {
-  border: 1px solid #ffffff25;
-}
 
-.p-table-d table tr td div:hover {
-  background: #00000025;
-  backdrop-filter: blur(4px);
-  font-size: x-large;
-}
-
-.p-table-d table tr td span {
+#p-table-d table tr td span {
   display: block;
   aspect-ratio: 2/1;
 }
 
-.p-table-d table tr td hr {
-  border: none;
-  margin: 1% auto;
+#p-table-d table tr td div:hover {
+  background: #ffffff01;
+  font-size: 1.5rem;
 }
 
-.b-prop h2,
+.b-prop {
+  width: 20%;
+  background: #ffffff15;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.b-prop h2 {
+  width: 100%;
+  font-size: 2.25rem;
+}
+
 .b-prop table {
-  padding: 0 8%;
+  width: 100%;
+  text-align: left;
+}
+
+.b-prop table tr td {
+  padding: 5% 8% 5%;
+  font-size: 1rem;
+  &:nth-child(1) {
+    width: 60%;
+  }
+  &:nth-child(2) {
+    width: 40%;
+  }
 }
 
 .b-prop button {
   width: 80%;
-  margin: 0 auto;
+  background: #00000011;
+  backdrop-filter: blur(4px);
+  border: 1px solid #999;
+  border-radius: 32px;
+  padding: 2%;
+  font-size: 1.6rem;
 }
 
-footer {
-  display: flex;
+.b-prop button a {
+  display: block;
+  width: 100%;
 }
 
 .fact {
-  width: 77%;
+  width: 78%;
 }
 
 .info {
   width: 20%;
-  align-content: end;
-  gap: 10%;
-}
-
-.info a {
-  width: 37%;
+  align-content: center;
+  text-align: right;
+  font-size: 1rem;
 }
