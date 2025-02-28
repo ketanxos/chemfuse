@@ -2478,5 +2478,3 @@ const properties = {
     url: "element/oganesson.html",
   },
 };
-
-console.log("props done");
