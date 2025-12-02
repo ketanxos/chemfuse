@@ -1,16 +1,8 @@
 # ChemFuse: Let's Make Chemistry Easy &#128300;
 
-Welcome to ChemFuse, a platform dedicated to simplifying chemistry concepts for students, educators, and enthusiasts. Our mission is to make learning chemistry engaging, accessible, and fun for everyone.
+<p align="justify">Welcome to ChemFuse, a platform dedicated to simplifying chemistry concepts for students, educators, and enthusiasts. Our mission is to make learning chemistry engaging, accessible, and fun for everyone.</p>
 
 ---
-
-## Table of Contents
-
-&#10551; Features\
-&#10551; Installation\
-&#10551; Contributing\
-&#10551; License\
-&#10551; Contact
 
 ### &#127775; Features
 
@@ -23,15 +15,23 @@ d) **Suspense:** Did you know? We've successfully discovered the element with **
 
 To run ChemFuse locally, follow these steps:
 
-1. Clone the repository:\
-`git clone https://github.com/yourusername/chemfuse.git`\
-`cd chemfuse`
+1. Clone the repository:
+```sh
+git clone https://github.com/ketanxos/chemfuse.git
+```
+```sh
+cd chemfuse
+```
 
-2. Install dependencies:\
-`npm install`
+2. Install dependencies:
+```sh
+npm install
+```
 
-3. Start the development server:\
-`npm start`
+3. Start the development server:
+```sh
+npm start
+```
 
 The website should now be running on http://localhost:3000.
 
@@ -41,15 +41,24 @@ We welcome contributions from the community! To contribute:
 
 Fork the repository.
 
-> Create a new branch (`git checkout -b feature-branch`).\
-  &#8642;\
-  Make your changes.\
-  &#8642;\
-  Commit your changes (`git commit -m 'Add some feature'`).\
-  &#8642;\
-  Push to the branch (`git push origin feature-branch`).\
-  &#8642;\
-> Open a Pull Request.
+1. Create a new branch
+```sh
+git checkout -b feature-branch
+```
+
+2. Make your changes.
+
+3. Commit your changes
+```sh
+git commit -m 'Add some feature'
+```
+
+4. Push to the branch
+```sh
+git push origin feature-branch
+```
+
+5. Open a Pull Request.
 
 Please ensure that your code adheres to our coding standards and includes appropriate tests.
 
